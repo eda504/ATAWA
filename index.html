@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATA-WA</title>
+
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/main.min.css" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- GRAY NAVBAR WITH LOGO IMAGE -->
+<header class="navbar">
+    <nav class="nav-container">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="ATA-WA Logo" class="logo-img">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Academics</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="lang-btn">Türkçe</button>
+    </nav>
+</header>
+
+<!-- SWIPING PHOTO GALLERY -->
+<section class="gallery">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><div class="placeholder-img">Photo 1</div></div>
+            <div class="swiper-slide"><div class="placeholder-img">Photo 2</div></div>
+            <div class="swiper-slide"><div class="placeholder-img">Photo 3</div></div>
+            <div class="swiper-slide"><div class="placeholder-img">Photo 4</div></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+    <section class="intro">
+        <h1>ATA-WA American-Turkish Academy of Washington</h1>
+        <p>ATA-WA is a non-profit educational institution meant to teach children between the ages of 3-14 Turkish culture in a fun and lively environment.</p>
+        <p>School consists of 2 semesters. First semester starts in September, second semester starts in February. Classes are held Saturday mornings.</p>
+    </section>
+
+    <section class="content-grid">
+        <div class="card">
+            <h2>Calendar 2025–2026</h2>
+            <div id="calendar"></div>
+        </div>
+
+        <div class="card">
+            <h2>Location</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5377.355177129046!2d-122.15728952315835!3d47.632398171192214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d0408d9ae37%3A0x224923bb2420ad50!2sLiving%20Montessori%20Education%20Community!5e0!3m2!1sen!2sus!4v1762750320881!5m2!1sen!2sus"
+                width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="address">2445 140th Ave NE, Suite B-200<br>Bellevue, WA 98005</p>
+        </div>
+    </section>
+</main>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- FullCalendar JS -->
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
