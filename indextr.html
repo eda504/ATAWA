@@ -1,45 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ATA-WA</title>
 
-    <!-- FullCalendar CSS -->
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/main.min.css" rel="stylesheet">
-    <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- css -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- navbar -->
 <header class="navbar">
     <nav class="nav-container">
-        <a href="index.html" class="logo">
+        <a href="indextr.html" class="logo">
             <img src="images/logo.png" alt="ATA-WA Logo" class="logo-img">
         </a>
         <ul class="nav-links">
-            <li><a href="index.html" class="nav-link active">Home</a></li>
-            <li><a href="about.html" class="nav-link">About</a></li>
-            <li><a href="academics.html" class="nav-link">Academics</a></li>
-            <li><a href="contact.html" class="nav-link">Contact</a></li>
+            <li><a href="indextr.html" class="nav-link active">Ana Sayfa</a></li>
+            <li><a href="abouttr.html" class="nav-link">Hakkımızda</a></li>
+            <li><a href="academicstr.html" class="nav-link">Eğitim</a></li>
+            <li><a href="contacttr.html" class="nav-link">İletişim</a></li>
         </ul>
-        <button class="lang-btn">Türkçe</button>
+        <button class="lang-btn">English</button> <!-- script.js will show "English" automatically -->
     </nav>
 </header>
 
-<!-- gallery -->
 <section class="gallery">
     <div class="swiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><div class="placeholder-img">Photo 1</div></div>
-            <div class="swiper-slide"><div class="placeholder-img">Photo 2</div></div>
-            <div class="swiper-slide"><div class="placeholder-img">Photo 3</div></div>
-            <div class="swiper-slide"><div class="placeholder-img">Photo 4</div></div>
+            <div class="swiper-slide"><div class="placeholder-img">Fotoğraf 1</div></div>
+            <div class="swiper-slide"><div class="placeholder-img">Fotoğraf 2</div></div>
+            <div class="swiper-slide"><div class="placeholder-img">Fotoğraf 3</div></div>
+            <div class="swiper-slide"><div class="placeholder-img">Fotoğraf 4</div></div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -47,24 +41,23 @@
     </div>
 </section>
 
-<!-- main content -->
 <main class="main-content">
     <section class="intro">
-        <h1>ATA-WA: American-Turkish Academy of Washington</h1>
-        <p>ATA-WA is a non-profit educational institution dedicated to teaching children ages 3–14 Turkish language and culture in a fun and engaging environment.</p>
-        <p>The school runs two semesters: Fall (September) and Spring (February). Classes are held every Saturday morning.</p>
+        <h1>ATA-WA: Amerikan Türk Akademisi Washington</h1>
+        <p>ATA-WA, 3-14 yaş arası çocuklara Türkçe dilini ve Türk kültürünü eğlenceli ve canlı bir ortamda öğreten kar amacı gütmeyen bir eğitim kurumudur.</p>
+        <p>Okulumuz iki dönemden oluşur: Güz dönemi (Eylül) ve Bahar dönemi (Şubat). Dersler her Cumartesi sabahı yapılmaktadır.</p>
     </section>
 
     <section class="content-grid">
         <div class="card">
-            <h2>Calendar 2025–2026</h2>
+            <h2>2025–2026 Takvimi</h2>
             <div id="calendar"></div>
         </div>
 
         <div class="card">
-            <h2>Location</h2>
+            <h2>Okul Konumu</h2>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5377.355177129046!2d-122.15728952315835!3d47.632398171192214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d0408d9ae37%3A0x224923bb2420ad50!2sLiving%20Montessori%20Education%20Community!5e0!3m2!1sen!2sus!4v1762750320881!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5377.355177129046!2d-122.15728952315835!3d47.632398171192214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d0408d9ae37%3A0x224923bb2420ad50!2sLiving%20Montessori%20Education%20Community!5e0!3m2!1str!2str!4v1762750320881!5m2!1str!2str"
                 width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             <p class="address">2445 140th Ave NE, Suite B-200<br>Bellevue, WA 98005</p>
